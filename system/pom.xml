@@ -70,9 +70,9 @@
 	</build>
 	<distributionManagement>
         <snapshotRepository>
-            <id>fa3repo</id>
-            <name>fa3repo</name>
-            <url>http://localhost:8091/repository/fa3repo/</url>
+            <id>akhi</id>
+            <name>akhi</name>
+            <url>http://localhost:8091/repository/akhi/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -112,10 +112,10 @@
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>akhi</id>
-            <name>akhi</name>
+            <id>mulesoft-releases</id>
+            <name>mulesoft release repository</name>
             <layout>default</layout>
-            <url>http://localhost:8091/repository/akhi/</url>
+            <url>https://repository.mulesoft.org/releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
